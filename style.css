@@ -1,0 +1,105 @@
+body{
+
+background:linear-gradient(#7eb8ef, #EFB0C9);
+  font-family: "Happy Monkey", system-ui;
+  color: #ffffff;
+  text-align: center;
+
+}
+#header{
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.shadow{
+  text-shadow:0px 0px 2px black ;
+
+}
+
+#birthdayperson{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    border: 6px solid #EFB0C9;
+    /* background-color:#EFB0C9; */
+}
+#bday-age{
+    background-color: #EFB0C9;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 6px;
+    margin: 20px 0px 10px 0px;
+
+}
+#bday-date{
+    margin: 0;
+    background-color: #EFB0C9;
+ padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+
+}
+.gift-section{
+    margin-top: 50px;
+
+}
+#gift-tittle{
+    margin-bottom: 10px;
+}
+#gift-hint{
+    margin-top: 0px;
+}
+
+.gift-box{
+    border: 6px solid white;
+    cursor: pointer;
+    width: 400px;
+    border-radius: 8px;
+    background-image: url(gift.jpeg);
+    height: 400px;
+    background-size: cover;
+    margin:0 auto;
+}
+#final-gift .gift-box {
+    height: 200px;
+}
+#suprise1:hover{
+    background-image: url(Happy.gif);
+   
+
+
+}
+#suprise2:hover{
+    background-image: url(baddie.gif);
+    background-size: cover;
+   
+}
+#suprise3:hover{
+    background-image: url(beautifull.gif);
+    background-size: cover;
+   
+}
+#suprise4:hover{
+    background-image: url(baddass.gif);
+    background-size: cover;
+   
+}
+#suprise5:hover{
+    background-image: url(cheers\ GIF.gif);
+    background-size: cover;
+   
+}
+footer{
+    width: 400px;
+    margin: 40px auto 20px auto;
+}
+footer p a{
+    font-style: italic;
+    color: #ffffff;
+}
+
+
+
